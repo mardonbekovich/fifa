@@ -1,0 +1,15 @@
+.hero__box{
+    background-color: lightgray;
+    height: 200px;
+    width: 800px;
+    border: 1px solid black;
+    border-radius: 15px;
+display: flex;
+gap: 1px   ; 
+
+}
+.hero_wrapper{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+}
